@@ -2,20 +2,33 @@
 
 > a simple Date selection component for vue
 
-## Build Setup
+[预览图](https://github.com/mshaital/simple-dateselect-vue/blob/master/src/assets/20190202110036.png)
+## Installing
+
+$ npm install simple-dateselect-vue --save
+
+import SimpleDateselectVue from 'simple-dateselect-vue'
 
 ``` bash
-# install dependencies
-npm install
+# Examples
+<datetime-picker v-model="showPick" @getVal="getVal"></datetime-picker> <br>
 
-# serve with hot reload at localhost:8080
-npm run dev
+showPick 控制显示隐藏
+getVal 事件得到选择的数据
 
-# build for production with minification
-npm run build
+## API
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+### Props
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+| Name   | Type     | Description                                  | Default                  |
+| :----- | :------- | :---------------------------------------------------------------------- |
+| showPick | Boolean | show or hidden.                             | false                    |
+| startYear | Number | Which year to start    | 1900
+| endYear   | Number | Which year to end      | 2100                                          |
+| defaultDate | Date | default date to show   | new Date()                                    |
+
+### Events
+
+| Name   | Description |
+| :----- | :---------- |
+| getVal  |  get value |
