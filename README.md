@@ -14,7 +14,6 @@ $ npm install simple-dateselect-vue --save
 
 import SimpleDateselectVue from 'simple-dateselect-vue'
 
-``` bash
 # Examples
 <datetime-picker v-model="showPick" @getVal="getVal"></datetime-picker> <br>
 
