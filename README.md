@@ -19,7 +19,6 @@ getVal 事件得到选择的数据
 ## API
 
 ### Props
-
 | Name        | Type     | Description            | Default                  |
 | :-----      | :------- | :----------------------| :----------------------- |
 | showPick    | Boolean  | show or hidden.        | false                    |
