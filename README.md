@@ -5,16 +5,16 @@
  ![image](https://github.com/mshaital/simple-dateselect-vue/blob/master/src/assets/20190202110036.png)
 ## Installing
 
-一个简单的vue 日期选择组件 只能选择日期
-由于项目特殊要求重写了他人的插件
-原版是用jquery写的改成vue组件改写很多基本上算是重写了
-扩展性不强 颜色大小位置都能不能改 需要的话自己改源码吧 需求那么多不可能全满足
+<p>一个简单的vue 日期选择组件 只能选择日期</p>
+<p>由于项目特殊要求重写了他人的插件</p>
+<p>原版是用jquery写的改成vue组件,改写很多基本上算是重写了</p>
+<p>扩展性不强 颜色大小位置都能不能改 需要的话自己改源码吧 个性化需求那么多不可能全满足</p>
 
 $ npm install simple-dateselect-vue --save
 
 import SimpleDateselectVue from 'simple-dateselect-vue'
 
-# Examples
+## Examples
 <datetime-picker v-model="showPick" @getVal="getVal"></datetime-picker> <br>
 
 showPick 控制显示隐藏
