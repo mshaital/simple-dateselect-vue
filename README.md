@@ -2,7 +2,7 @@
 
 > a simple Date selection component for vue
 
-[预览图](https://github.com/mshaital/simple-dateselect-vue/blob/master/src/assets/20190202110036.png)
+ ![image](https://github.com/mshaital/simple-dateselect-vue/blob/master/src/assets/20190202110036.png)
 ## Installing
 
 $ npm install simple-dateselect-vue --save
