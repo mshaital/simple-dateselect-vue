@@ -20,15 +20,15 @@ getVal 事件得到选择的数据
 
 ### Props
 
-| Name   | Type     | Description                                  | Default                  |
-| :----- | :------- | :---------------------------------------------------------------------- |
-| showPick | Boolean | show or hidden.                             | false                    |
-| startYear | Number | Which year to start    | 1900
-| endYear   | Number | Which year to end      | 2100                                          |
-| defaultDate | Date | default date to show   | new Date()                                    |
+| Name        | Type     | Description            | Default                  |
+| :-----      | :------- | :----------------------| :----------------------- |
+| showPick    | Boolean  | show or hidden.        | false                    |
+| startYear   | Number   | Which year to start    | 1900                     |
+| endYear     | Number   | Which year to end      | 2100                     |
+| defaultDate | Date     | default date to show   | new Date()               |
 
 ### Events
 
-| Name   | Description |
-| :----- | :---------- |
-| getVal  |  get value |
+| Name    | Description |
+| :-----  | :---------- |
+| getVal  |  get value  |
