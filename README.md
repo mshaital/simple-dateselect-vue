@@ -2,7 +2,7 @@
 
 > a simple Date selection component for vue
 
- ![image](https://github.com/mshaital/simple-dateselect-vue/blob/master/src/assets/20190202110036.png)
+ ![image](https://raw.githubusercontent.com/mshaital/simple-dateselect-vue/master/src/assets/20190202110036.png)
 
     一个简单的vue 日期选择组件 只能选择日期
     由于项目特殊要求重写了他人的插件

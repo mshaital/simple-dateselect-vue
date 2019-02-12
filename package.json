@@ -1,10 +1,15 @@
 {
   "name": "simple-dateselect-vue",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "a simple Date selection component for vue",
   "author": "shaital <neel_shaital@foxmail.com>",
   "private": false,
   "main": "dist/datetimePicker.js",
+  "keywords": [
+    "vue",
+    "date"
+  ],
+  "license" : "MIT",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
