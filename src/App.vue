@@ -23,11 +23,6 @@
     methods: {
       getVal(e){
         this.pickerValue = e
-      },
-      monthClick(mon) {
-        mon = parseInt(mon, 10);
-        let d = new Date(2018, mon, 0);
-        this.day = d.getDate();
       }
     }
   }
