@@ -1,6 +1,6 @@
 {
   "name": "simple-dateselect-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple Date selection component for vue",
   "author": "shaital <neel_shaital@foxmail.com>",
   "private": false,
